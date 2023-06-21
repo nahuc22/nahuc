@@ -6,6 +6,6 @@ const mascotasRouter = require('./mascotas.js');
 
 router.use('/login', loginRouter);
 router.use('/fundaciones', fundacionRouter);
-router.use('/mascotas', mascotasRouter)
+router.use('/mascotas', mascotasRouter);
 
 module.exports = router; 
